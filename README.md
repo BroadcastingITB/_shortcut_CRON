@@ -14,4 +14,7 @@ CRON is a shortcut that uses iOS Alarms as a job scheduler (like the Linux comma
 - Data Jar `iOS App`
 
 ### Instructions
+#### 1. Install shortcuts
+
+#### 1. create automation
 ![Automation](images/IMG_1662.jpeg)
