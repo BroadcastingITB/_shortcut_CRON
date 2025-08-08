@@ -5,5 +5,5 @@ CRON is a shortcut that uses iOS Alarms as a job scheduler (like the Linux comma
 
 ## Installation
 ### Components
-. CRON `shortcut`
-. [CRON_Process_Alarms]
+- CRON `shortcut`
+- [CRON_Process_Alarms]
