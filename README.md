@@ -34,10 +34,10 @@ or Shortcut_Name (parameters in the Input)
 ```
 
 ## Note on resubmission:
-• If resubmission not included, it runs once.
-• If resubmission has Delay and “Repeats”:N, it repeats N times. 
-• If resubmission has Delay, but Repeats is omitted, it runs perpetually (until the alarm is deleted, manually or by another process).
-• if “until” date/time given and would be exceeded then don’t resubmit. 
+- If resubmission not included, it runs once.
+- If resubmission has Delay and “Repeats”:N, it repeats N times.
+- If resubmission has Delay, but Repeats is omitted, it runs perpetually (until the alarm is deleted, manually or by another process).
+- If “until” date/time given and would be exceeded then don’t resubmit. 
 
 ## Installation
 ### Components
