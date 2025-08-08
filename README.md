@@ -1,5 +1,5 @@
-## _shortcut_CRON
-iOS Shortcut “CRON”
+# _shortcut_CRON
+## Introduction
 
 CRON is a shortcut that uses iOS Alarms as a job scheduler (like the Linux command `cron`). It can run shortcuts at a date/time in the future, run them repeatedly (x times, or until {date}), use runtime parameters and predefined definitions.
 
