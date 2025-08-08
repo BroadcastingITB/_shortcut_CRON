@@ -8,5 +8,10 @@ CRON is a shortcut that uses iOS Alarms as a job scheduler (like the Linux comma
 - CRON `shortcut`
 - [CRON_Process_Alarms] `shortcut`
 - CRON_Submit_Request `shortcut`
-- `automation` 
+- `automation` When any alarm goes off, run [CRON] immediately, don't notify
 
+### Prerequisites
+- Data Jar `iOS App`
+
+### Instructions
+![Screenshot description](images/screenshot1.png)
