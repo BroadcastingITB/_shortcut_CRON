@@ -43,7 +43,7 @@ or Shortcut_Name (parameters in the Input)
 ```
 
 ### Resubmission choices
-- If `"Resubmission":{...}`not included, it runs once.
+- If `"Resubmission":{...}` is not included, it runs once.
 - If resubmission has Delay and “Repeats”:N, it repeats N times.
 - If resubmission has Delay, but Repeats is omitted, it runs perpetually (until the alarm is deleted or disabled, either manually or by another process).
 - If “until” date/time is given and would be exceeded then don’t resubmit (even if Repeats has not been exceeded). 
