@@ -66,7 +66,7 @@ If CRON calls a shortcut which fails, Cron will stop. To cope with this, CRON cr
 - `automation` When any alarm goes off, run [CRON] immediately, don't notify
 
 ### Prerequisites
-- Data Jar `iOS App` ![Download](https://apps.apple.com/gb/app/data-jar/id1453273600)
+- Data Jar `iOS App` [Download](https://apps.apple.com/gb/app/data-jar/id1453273600)
 
 ### Instructions
 #### Install shortcuts
