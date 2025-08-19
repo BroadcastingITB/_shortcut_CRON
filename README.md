@@ -72,4 +72,4 @@ If CRON calls a shortcut which fails, Cron will stop. To cope with this, CRON cr
 #### Install shortcuts
 
 #### Create automation
-![Automation](images/IMG_1662.jpeg)
+![Automation](images/automation definition.jpeg)
