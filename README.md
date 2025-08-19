@@ -58,15 +58,16 @@ When any alarm triggers the automation (including non-CRON alarms) it runs `[CRO
 If CRON calls a shortcut which fails, Cron will stop. To cope with this, CRON creates a temporary `\_CRON\_OnFail\_` alarm before running the shortcut, and deletes it after the shortcut has run. Therefore, if the shortcut fails, that alarm will trigger CRON later. `OnFail` is defined in the `\_CRON.Requests` Data Jar area with `Shortcut_Name = [CRON_OnFail]`.  
 
 ## Installation
-### Components
-- CRON `shortcut`
-- [CRON_Process_Alarms] `shortcut`
-- [CRON_OnFail] `shortcut`
-- CRON_Submit_Request `shortcut`
-- `automation` When any alarm goes off, run [CRON] immediately, don't notify
+### Summary of Components
+1. CRON `shortcut`
+1. [CRON_Process_Alarms] `shortcut`
+1. [CRON_OnFail] `shortcut`
+1. CRON_Submit_Request `shortcut`
+1. `automation` When any alarm goes off, run [CRON] immediately, don't notify
 
 ### Prerequisites
 - Data Jar `iOS App` [Download](https://apps.apple.com/gb/app/data-jar/id1453273600)
+- Data Jar - Data Setup `shortcut`
 
 ### Instructions
 #### Install shortcuts
