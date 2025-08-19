@@ -10,7 +10,7 @@ CRON jobs are created using the shortcut `CRON_Submit_Request` with a JSON struc
 - the shortcut to be run amd any parameters
 - any repeat/resubmission options
 
-An alarm is created with this structure:
+When the request is submitted, an alarm is created that will trigger an automation when it sounds. The alarm has a label with this structure:
 `DD/MM/YY`\_CRON\_`NNN`\_`Label1`_`Label2`...\
 where:
 - `DD/MM/YY` = date alarm will run
