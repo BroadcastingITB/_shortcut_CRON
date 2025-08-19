@@ -5,7 +5,10 @@ CRON is a shortcut that uses iOS Alarms as a job scheduler (like the Linux comma
 
 ## Functional Overview
 ### creating jobs
-CRON jobs are created using the shortcut `CRON_Submit_Request` with a JSON structure.
+CRON jobs are created using the shortcut `CRON_Submit_Request` with a JSON structure which defines:
+- the delay until a shortcut should run
+- the shortcut to be run amd any parameters
+- any repeat/resubmission options
 
 An alarm is created with this structure:
 `DD/MM/YY`\_CRON\_`NNN`\_`Label1`_`Label2`...\
