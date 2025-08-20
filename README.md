@@ -72,6 +72,11 @@ If CRON calls a shortcut which fails, Cron will stop. To cope with this, CRON cr
 
 ### Instructions
 #### Install shortcuts
+1. Data Jar - Data Setup [Install](shortcuts/Data Jar - Data Setup.shortcut)
+1. CRON Setup `shortcut`
+2. CRON `shortcut`
+1. [CRON_Process_Alarms] `shortcut`
+1. [CRON_OnFail] `shortcut`
 
 #### Create automation
 ![Automation](images/automation_definition.jpeg)
