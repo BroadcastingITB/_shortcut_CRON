@@ -71,12 +71,17 @@ If CRON calls a shortcut which fails, Cron will stop. To cope with this, CRON cr
 - Data Jar - Data Setup `shortcut`
 
 ### Instructions
-#### Install shortcuts
-1. Data Jar - Data Setup [Install](https://www.icloud.com/shortcuts/e11a4ef814034dee9f01a1c49ecdd9da)
-1. CRON Setup `shortcut`
-2. CRON `shortcut`
-1. [CRON_Process_Alarms] `shortcut`
-1. [CRON_OnFail] `shortcut`
+
+#### Install prerequisites
+1. Data Jar `iOS App` [Download]
+2. Data Jar - Data Setup [Install](https://www.icloud.com/shortcuts/435822740ac349919f2d1e41629b3890)
+
+#### Install CRON shortcuts
+2. CRON Setup [Install](https://www.icloud.com/shortcuts/e11a4ef814034dee9f01a1c49ecdd9da)
+2. CRON [Install](https://www.icloud.com/shortcuts/111b82f888fd4c0693aa363d66b746bd)
+1. [CRON_Process_Alarms] [Install](https://www.icloud.com/shortcuts/4fc3d10e8ddc420fa509faa99776a3a3)
+1. [CRON_OnFail] [Install](https://www.icloud.com/shortcuts/909be7629e864a4e95f086809e51abb6)
+2. CRON_Submit_Request [Install](https://www.icloud.com/shortcuts/94b08be2763e4173a1c9e71ab1b3f5c4)
 
 #### Create automation
 ![Automation](images/automation_definition.jpeg)
