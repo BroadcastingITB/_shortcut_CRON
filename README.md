@@ -57,7 +57,7 @@ When any alarm triggers the automation (including non-CRON alarms) it runs `[CRO
 ### Failure handling
 If CRON calls a shortcut which fails, Cron will stop. To cope with this, CRON creates a temporary `\_CRON\_OnFail\_` alarm before running the shortcut, and deletes it after the shortcut has run. Therefore, if the shortcut fails, that alarm will trigger CRON later. `OnFail` is defined in the `\_CRON.Requests` Data Jar area with `Shortcut_Name = [CRON_OnFail]`.  
 
-## Installation
+## Installation Overview
 ### Summary of Components
 1. CRON Setup `shortcut`
 2. [CRON] `shortcut`
@@ -70,18 +70,18 @@ If CRON calls a shortcut which fails, Cron will stop. To cope with this, CRON cr
 - Data Jar `iOS App` [Download](https://apps.apple.com/gb/app/data-jar/id1453273600)
 - Data Jar - Data Setup `shortcut`
 
-### Installation Instructions
+## Installation Instructions
 
-#### Install prerequisites
+### Install prerequisites
 1. Data Jar `iOS App` [Download](https://apps.apple.com/gb/app/data-jar/id1453273600)
 2. Data Jar - Data Setup [Install](https://www.icloud.com/shortcuts/435822740ac349919f2d1e41629b3890)
 
-#### Install CRON shortcuts
+### Install CRON shortcuts
 2. CRON Setup [Install](https://www.icloud.com/shortcuts/e11a4ef814034dee9f01a1c49ecdd9da)
 2. [CRON] [Install](https://www.icloud.com/shortcuts/111b82f888fd4c0693aa363d66b746bd)
 1. [CRON_Process_Alarms] [Install](https://www.icloud.com/shortcuts/4fc3d10e8ddc420fa509faa99776a3a3)
 1. [CRON_OnFail] [Install](https://www.icloud.com/shortcuts/909be7629e864a4e95f086809e51abb6)
 2. CRON_Submit_Request [Install](https://www.icloud.com/shortcuts/94b08be2763e4173a1c9e71ab1b3f5c4)
 
-#### Create automation
+### Create automation
 ![Automation](images/automation_definition.jpeg)
