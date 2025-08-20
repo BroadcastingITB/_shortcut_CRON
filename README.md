@@ -59,7 +59,8 @@ If CRON calls a shortcut which fails, Cron will stop. To cope with this, CRON cr
 
 ## Installation
 ### Summary of Components
-1. CRON `shortcut`
+1. CRON Setup `shortcut`
+2. CRON `shortcut`
 1. [CRON_Process_Alarms] `shortcut`
 1. [CRON_OnFail] `shortcut`
 1. CRON_Submit_Request `shortcut`
