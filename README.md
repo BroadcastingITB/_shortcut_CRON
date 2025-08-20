@@ -73,7 +73,7 @@ If CRON calls a shortcut which fails, Cron will stop. To cope with this, CRON cr
 ### Instructions
 
 #### Install prerequisites
-1. Data Jar `iOS App` [Download]
+1. Data Jar `iOS App` [Download](https://apps.apple.com/gb/app/data-jar/id1453273600)
 2. Data Jar - Data Setup [Install](https://www.icloud.com/shortcuts/435822740ac349919f2d1e41629b3890)
 
 #### Install CRON shortcuts
