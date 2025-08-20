@@ -72,7 +72,7 @@ If CRON calls a shortcut which fails, Cron will stop. To cope with this, CRON cr
 
 ### Instructions
 #### Install shortcuts
-1. Data Jar - Data Setup [Install](shortcuts/Data%20Jar%20-%20Data%20Setup.shortcut)
+1. Data Jar - Data Setup [Install](https://www.icloud.com/shortcuts/e11a4ef814034dee9f01a1c49ecdd9da)
 1. CRON Setup `shortcut`
 2. CRON `shortcut`
 1. [CRON_Process_Alarms] `shortcut`
